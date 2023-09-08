@@ -32,53 +32,213 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "capable",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What can you do?",
+        "What are you capable of?",
+        "What do you do?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "My name is Unichat, I'm an Admission Chatbot, I answer necessary information about admission requirement in various Nigerian Universities"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "faculty",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How many faculty do we have in Ekiti State University(EKSU)",
+        "How many faculty do we have in EKSU",
+        "How many faculty do we have in Ekiti State University"
+
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We have 10 Faculty in Ekiti State University(EKSU) namely Faculty of Agricultural Sciences, Faculty of Arts, Faculty of Education, Faculty of Engineering, Faculty of Law, Faculty of Management Science, Faculty of Sciences, Faculty of Social Sciences and Faculty Of Multidisciplinary Studies  "
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "sciences",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How many department do we have in Faculty of Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Sciences in Ekiti State University(EKSU)"
+
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "We have 13 departments in faculty of Sciences in Ekiti State University(EKSU) namely Computer Science, Biochemistry, Chemistry, Physics, Microbiology, Industrial Chemistry, Geology, Mathematics, Plant Science and Biotechnology, Zoology, Geophysics, Science Laboratory Technology and Statistics "
       ]
     },
     {
-      "tag": "funny",
+      "tag": "agric",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How many department do we have in Faculty of Agricultural Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Agric in Ekiti State University(EKSU)"
+
+
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "We have 6 departments in faculty of Agricultural Science in Ekiti State University(EKSU) namely Agricultural Economics and Extension Services, Animal Science, Crop Horticulture and Landscape Design, Soil Resource and Environmental Management, Fishery and Aquaculture Management and Forest Resources and Wildlife Management "
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": [
+        "How many department do we have in Faculty of Arts in Ekiti State University(EKSU)",
+        "How many department do we have in Arts in Ekiti State University(EKSU)"
+      ],
+      "responses": [
+        "We have 7 departments in faculty of Arts in Ekiti State University(EKSU) namely English and Literary Studies(ELS), French, History and International Studies, Linguistics and Nigerian Languages, philosophy, Religious Studies and Theatre and Media Arts.   "
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "How many department do we have in Faculty of Education in Ekiti State University(EKSU)",
+        "How many department do we have in Education in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 8 departments in faculty of Education in Ekiti State University(EKSU) namely Adult Education and Community Development, Arts and Language Education, Educational Management, Guidance and Counselling, Human Kinetics and Health Education, Science Education, Social Science Education, and Vocational and Technical Education "
+      ]
+    },
+    {
+      "tag": "engineering",
+      "patterns": [
+        "How many department do we have in Faculty of Engineering in Ekiti State University(EKSU)",
+        "How many department do we have in Engineering in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 4 departments in faculty of Engineering in Ekiti State University(EKSU) namely Civil Engineering, Computer Engineering, Mechanical Engineering and Electrical Engineering "
+      ]
+    },
+    {
+      "tag": "law",
+      "patterns": [
+        "How many department do we have in Faculty of Law in Ekiti State University(EKSU)",
+        "How many department do we have in Law in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        " We have 4 departments in faculty of Law in Ekiti State University(EKSU) namely Private and property Law, Public Law, Jurisprudence and International Law and Business and Industrial Law"
+      ]
+    },
+    {
+      "tag": "management",
+      "patterns": [
+        "How many department do we have in Faculty of Management Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Management Sciences in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 3 departments in faculty of Management Science in Ekiti State University(EKSU) namely Accounting, Business Administration and Finance"
+      ]
+    },
+    {
+      "tag": "social",
+      "patterns": [
+        "How many department do we have in Faculty of Social Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Social Sciences in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 5 departments in faculty of Social Science in Ekiti State University(EKSU) namely Tourism, Sociology, Political Science, Entrepreneurship, Actuarial Science "
+      ]
+    },
+    {
+      "tag": "multidisciplinary",
+      "patterns": [
+        "How many department do we have in Faculty of Multidisciplinary Studies in Ekiti State University(EKSU)",
+        "How many department do we have in Multidisciplinary Studies in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 4 departments in Faculty of Multidisciplinary Studies in Ekiti State University(EKSU) namely Gender and Development Studies, Mass Communication and Peace and Security Studies"
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "How many department do we have in College of Medicine in Ekiti State University(EKSU)",
+        "How many department do we have in Medicine in Ekiti State University(EKSU)"
+
+
+      ],
+      "responses": [
+        "We have 11 Faculty in Ekiti State University(EKSU) namely Faculty of Agricultural Sciences,Faculty of Arts, Faculty of Education, Faculty of Engineering, Faculty of Law, Faculty of Management Science, Faculty of Sciences, Faculty of Social Sciences, Faculty Of Multidisciplinary Studies and College Of Medicine "
+      ]
+    },
+    {
+      "tag": "computer ",
+      "patterns": [
+        "What are the requirements to study Computer Science in Ekiti State University(EKSU)",
+        "What are the requirements to study Computer Science ",
+        "What do you need to study Computer Science",
+        "What is the JAMB and WAEC requirements for computer science"
+
+
+      ],
+      "responses": [
+        "To study Computer Science in Ekiti State University(EKSU), You need to have 200 in Mathematics ,English, Chemistry and Physics for Jamb and also have at least Credits in five Sciences subjects in WAEC including Mathematics and English "
+      ]
+    },
+    {
+      "tag": "chemistry ",
+      "patterns": [
+        "What are the requirements to study chemistry in Ekiti State University(EKSU)",
+        "What are the requirements to study chemistry",
+        "What do you need to study chemistry",
+        "What is the JAMB and WAEC requirements for chemistry"
+
+
+      ],
+      "responses": [
+        "To study chemistry in Ekiti State University(EKSU), You need to have 180 in English,Biology, Chemistry and Physics for Jamb and also have at least Credits in five subject in WAEC including Mathematics and English "
+      ]
+    },
+    {
+      "tag": "biochemistry ",
+      "patterns": [
+        "What are the requirements to study biochemistry in Ekiti State University(EKSU)",
+        "What are the requirements to study biochemistry",
+        "What do you need to study biochemistry",
+        "What is the JAMB and WAEC requirements for Biochemistry"
+
+
+      ],
+      "responses": [
+        "To study Biochemistry in Ekiti State University(EKSU), You need to have 200 in English,Biology, Chemistry and Physics for Jamb and also have at least Credits in five subject in WAEC including Mathematics and English "
+      ]
+    },
+    {
+      "tag": "mathematics ",
+      "patterns": [
+        "What are the requirements to study mathematics in Ekiti State University(EKSU)",
+        "What are the requirements to study mathematics",
+        "What do you need to study mathematics",
+        "What is the JAMB and WAEC requirements for mathematics"
+      ],
+      "responses": [
+        "To study Mathematics in Ekiti State University(EKSU), You need to have 180 in Mathematics ,English, Chemistry and Physics for Jamb and also have at least Credits in five Sciences subjects in WAEC including Mathematics and English "
+      ]
+    },
+    {
+      "tag": "statistics ",
+      "patterns": [
+        "What are the requirements to study Statistics in Ekiti State University(EKSU)",
+        "What are the requirements to study statistics",
+        "What do you need to study statistics",
+        "What is the JAMB and WAEC requirements for Statistics"
+
+
+      ],
+      "responses": [
+        "To study Statistics in Ekiti State University(EKSU), You need to have 180 in Mathematics ,English, Chemistry and Physics for Jamb and also have at least Credits in five Sciences subjects in WAEC including Mathematics and English "
       ]
     }
+    
   ]
 }

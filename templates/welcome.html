@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/static/images/ai.png">
+<title>Chatbot</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="{{ url_for('welcome_page') }}"><img src="/static/images/logo.png" alt=""></a>
+        </div>
+        <div class="welcome-content">
+            <h3>Welcome to uniChat</h3>
+            <p>Get all necessary information about admission requirement in various Nigerian Universities easily at no cost at all</p>
+        </div>
+        <div class="welcome-button">
+            <a href="{{ url_for('register') }}"><button>Get Started</button></a>
+        </div>
+    </div>
+</body>
+</html>
