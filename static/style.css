@@ -78,6 +78,22 @@ body {
     gap: 0.5rem;
     background-color: rgba(190, 243, 181, 0.15) ;
     width: 100%;
+
+}
+
+.message_input{
+    background-color: rgba(190, 243, 181, 0.15) ;
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    margin-top: 0.2rem;
+}
+
+.text-image{
+    width: 25px;
+    height: 25px;
 }
 
 .messages__item--operator {
@@ -94,8 +110,7 @@ body {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 95%;
-    height: 150px;
-    /* background-color: purple; */
+    height: 50px;
     font-family: League Spartan;
     font-size: 16px;
     font-weight: 400;
@@ -156,7 +171,7 @@ body {
 .welcome-content p{
     font-family: 'League Spartan', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 29px;
     letter-spacing: 0.035em;
     text-align: center;
@@ -171,6 +186,7 @@ body {
     background-color: #63D950;
     color: #fff;
     border: #63D950;
+    border-radius: 8px;
     padding: 1rem 5rem;
     box-shadow: rgba(16, 96, 159, 0.3);
     text-transform: uppercase;
@@ -180,8 +196,6 @@ body {
     line-height: 22px;
     letter-spacing: 0em;
     margin-top: 2rem;
-    margin-left: 7rem;
-
 }
 
 .register-row{
@@ -196,6 +210,10 @@ body {
     align-items: center;
     justify-content: center;
     
+}
+
+.button{
+    display: flex;
 }
 
 .register-columns{
@@ -216,43 +234,47 @@ body {
 .register-columns input,
 .register-column input{
     font-family: 'League Spartan', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    color: #1E1E1E;
     padding: 0.5rem;
     outline: none;
     border: none;
     background-color: #ffff;
+    color: rgba(30, 30, 30, 1);
+    border-radius: 8px;
 }
 
 .register-form{
     margin-top: 2rem;
 }
 
+.register-columns img,
 .register-column img{
-    width: 17px;
+    width: 20px;
+    height: 18px;
+    margin-top: 0.6rem;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0 2rem 3rem;
+    margin: 2rem 0;
 }
 
 .header-user-icon{
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 0.75fr;
+    gap: 4rem;
     box-shadow: 0px 4px 28px -9px rgba(0, 0, 0, 0.25);
     border-radius: 3rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 
 }
 
 .header-user-icon a,
 .header-user-icon p{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
 
 }
@@ -264,7 +286,7 @@ body {
 }
 
 .segment p{
-    margin-top: 0.2rem;
+    margin-top: 0.3rem;
 }
 
 .logout{
@@ -354,5 +376,13 @@ body {
     line-height: 11px;
     letter-spacing: 0.035em;
     margin-top: 0.25rem;
+
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }

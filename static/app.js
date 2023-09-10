@@ -70,11 +70,11 @@ class Chatbox{
         this.messages.slice().reverse().forEach(function(item,){
             if (item.name === "unichat")
             {
-                html += '<div class="messages__item messages__item--visitor">'+'<img src="/static/images/ai.png" alt="">' + item.message + '</div>'
+                html +=  '<div class="messages__item messages__item--visitor">'+ '<img src="/static/images/ai.png" alt="" class = "text-image">'+'<div class="message_input">' + item.message + '</div>'+ '</div>'
             }
             else
             {
-                html += '<div class="messages__item messages__item--operator">' +'<img src="/static/images/Ellipse.png" alt="">' + item.message + '</div>'
+                html += '<div class="messages__item messages__item--operator">' + '<img src="/static/images/Ellipse.png" alt="" class = "text-image">'+ '<div class="message_input">'  + item.message +'</div>'+ '</div>'
             }
         });
 

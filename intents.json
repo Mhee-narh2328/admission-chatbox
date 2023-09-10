@@ -58,7 +58,9 @@
       "tag": "sciences",
       "patterns": [
         "How many department do we have in Faculty of Sciences in Ekiti State University(EKSU)",
-        "How many department do we have in Sciences in Ekiti State University(EKSU)"
+        "How many department do we have in Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Science in EKSU  ",
+        "How many department does Sciences have"
 
       ],
       "responses": [

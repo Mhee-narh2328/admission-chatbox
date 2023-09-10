@@ -42,7 +42,7 @@ def load_user(id):
     return User.query.get(int(id))
 
 
-@app.route("/", methods = ["GET"])
+@app.route("/index", methods = ["GET"])
 @login_required
 def index_get():
     return render_template("base.html")
@@ -55,7 +55,7 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
-@app.route("/welcome")
+@app.route("/")
 def welcome_page():
     return render_template("welcome.html")
 
