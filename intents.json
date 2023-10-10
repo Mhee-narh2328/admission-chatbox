@@ -71,7 +71,9 @@
       "tag": "agric",
       "patterns": [
         "How many department do we have in Faculty of Agricultural Sciences in Ekiti State University(EKSU)",
-        "How many department do we have in Faculty of Agric in Ekiti State University(EKSU)"
+        "How many department do we have in Faculty of Agric in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Agric in EKSU  ",
+        "How many department does Agric have"
 
 
       ],
@@ -83,7 +85,9 @@
       "tag": "art",
       "patterns": [
         "How many department do we have in Faculty of Arts in Ekiti State University(EKSU)",
-        "How many department do we have in Arts in Ekiti State University(EKSU)"
+        "How many department do we have in Arts in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Arts in EKSU  ",
+        "How many department does Arts have"
       ],
       "responses": [
         "We have 7 departments in faculty of Arts in Ekiti State University(EKSU) namely English and Literary Studies(ELS), French, History and International Studies, Linguistics and Nigerian Languages, philosophy, Religious Studies and Theatre and Media Arts.   "
@@ -93,7 +97,9 @@
       "tag": "education",
       "patterns": [
         "How many department do we have in Faculty of Education in Ekiti State University(EKSU)",
-        "How many department do we have in Education in Ekiti State University(EKSU)"
+        "How many department do we have in Education in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Education in EKSU  ",
+        "How many department does Education have"
 
 
       ],
@@ -105,7 +111,9 @@
       "tag": "engineering",
       "patterns": [
         "How many department do we have in Faculty of Engineering in Ekiti State University(EKSU)",
-        "How many department do we have in Engineering in Ekiti State University(EKSU)"
+        "How many department do we have in Engineering in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Engineering in EKSU  ",
+        "How many department does Engineering have"
 
 
       ],
@@ -117,7 +125,9 @@
       "tag": "law",
       "patterns": [
         "How many department do we have in Faculty of Law in Ekiti State University(EKSU)",
-        "How many department do we have in Law in Ekiti State University(EKSU)"
+        "How many department do we have in Law in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Law in EKSU  ",
+        "How many department does Law have"
 
 
       ],
@@ -129,7 +139,9 @@
       "tag": "management",
       "patterns": [
         "How many department do we have in Faculty of Management Sciences in Ekiti State University(EKSU)",
-        "How many department do we have in Management Sciences in Ekiti State University(EKSU)"
+        "How many department do we have in Management Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Management Science in EKSU  ",
+        "How many department does Management have"
 
 
       ],
@@ -141,7 +153,9 @@
       "tag": "social",
       "patterns": [
         "How many department do we have in Faculty of Social Sciences in Ekiti State University(EKSU)",
-        "How many department do we have in Social Sciences in Ekiti State University(EKSU)"
+        "How many department do we have in Social Sciences in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Social Sciences in EKSU  ",
+        "How many department does Social Science have"
 
 
       ],
@@ -153,7 +167,9 @@
       "tag": "multidisciplinary",
       "patterns": [
         "How many department do we have in Faculty of Multidisciplinary Studies in Ekiti State University(EKSU)",
-        "How many department do we have in Multidisciplinary Studies in Ekiti State University(EKSU)"
+        "How many department do we have in Multidisciplinary Studies in Ekiti State University(EKSU)",
+        "How many department do we have in Faculty of Multidisciplinary Studies in EKSU  ",
+        "How many department does Multidisciplinary Studies have"
 
 
       ],
@@ -165,7 +181,9 @@
       "tag": "medicine",
       "patterns": [
         "How many department do we have in College of Medicine in Ekiti State University(EKSU)",
-        "How many department do we have in Medicine in Ekiti State University(EKSU)"
+        "How many department do we have in Medicine in Ekiti State University(EKSU)",
+        "How many department do we have in College of Medicine in EKSU  ",
+        "How many department does Medicine have"
 
 
       ],
@@ -178,6 +196,7 @@
       "patterns": [
         "What are the requirements to study Computer Science in Ekiti State University(EKSU)",
         "What are the requirements to study Computer Science ",
+        "What are the requirements to study Computer Science in EKSU ",
         "What do you need to study Computer Science",
         "What is the JAMB and WAEC requirements for computer science"
 
@@ -192,6 +211,7 @@
       "patterns": [
         "What are the requirements to study chemistry in Ekiti State University(EKSU)",
         "What are the requirements to study chemistry",
+        "What are the requirements to study chemistry in EKSU",
         "What do you need to study chemistry",
         "What is the JAMB and WAEC requirements for chemistry"
 
@@ -206,6 +226,7 @@
       "patterns": [
         "What are the requirements to study biochemistry in Ekiti State University(EKSU)",
         "What are the requirements to study biochemistry",
+        "What are the requirements to study biochemistry in EKSU",
         "What do you need to study biochemistry",
         "What is the JAMB and WAEC requirements for Biochemistry"
 
@@ -220,6 +241,7 @@
       "patterns": [
         "What are the requirements to study mathematics in Ekiti State University(EKSU)",
         "What are the requirements to study mathematics",
+        "What are the requirements to study mathematics in EKSU",
         "What do you need to study mathematics",
         "What is the JAMB and WAEC requirements for mathematics"
       ],
@@ -232,6 +254,7 @@
       "patterns": [
         "What are the requirements to study Statistics in Ekiti State University(EKSU)",
         "What are the requirements to study statistics",
+        "What are the requirements to study statistics in EKSU",
         "What do you need to study statistics",
         "What is the JAMB and WAEC requirements for Statistics"
 

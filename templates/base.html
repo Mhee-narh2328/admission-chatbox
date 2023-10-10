@@ -19,7 +19,7 @@
             <div class="header-user-icon">
                 <div class="segment">
                     <img src="/static/images/Ellipse.png" alt="">
-                    <p>Joseph Dan</p>
+                    <p>{{user.name}}</p>
                 </div>
                 <a href="{{ url_for('logout') }}">
                     <div class="segment">
@@ -38,7 +38,9 @@
                         <div></div>
                     </div>
                     <div class="chatbox__footer">
-                        <input type="text" placeholder="Ask or search anything.....">
+                        <!-- <form action="" method="POST"> -->
+                            <input type="text" name="message" placeholder="Ask or search anything.....">
+                        <!-- </form> -->
                         <div class="chatbox-icon">
                             <div class="chatbox-prompt">
                                 <img src="/static/images/prompt.png" alt="">
@@ -59,30 +61,12 @@
             <div class="right-container">
                 <h3>Chat History</h3>
                 <div class="chat-history">
+                    {% for message in messages %}
                     <div class="question">
                         <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
+                        <p>{{message.message}}</p>
                     </div>
-                    <div class="question">
-                        <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
-                    </div>
-                    <div class="question">
-                        <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
-                    </div>
-                    <div class="question">
-                        <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
-                    </div>
-                    <div class="question">
-                        <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
-                    </div>
-                    <div class="question">
-                        <img src="/static/images/Ellipse.png" alt="">
-                        <p>What is Artificial Intelligence?</p>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
