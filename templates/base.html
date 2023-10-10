@@ -38,9 +38,9 @@
                         <div></div>
                     </div>
                     <div class="chatbox__footer">
-                        <!-- <form action="" method="POST"> -->
+                        <form action="" method="POST" id="myForm"> 
                             <input type="text" name="message" placeholder="Ask or search anything.....">
-                        <!-- </form> -->
+                        </form>
                         <div class="chatbox-icon">
                             <div class="chatbox-prompt">
                                 <img src="/static/images/prompt.png" alt="">
@@ -61,7 +61,7 @@
             <div class="right-container">
                 <h3>Chat History</h3>
                 <div class="chat-history">
-                    {% for message in messages %}
+                    {% for message in messages[-6:] %}
                     <div class="question">
                         <img src="/static/images/Ellipse.png" alt="">
                         <p>{{message.message}}</p>
@@ -77,6 +77,27 @@
         $SCRIPT_ROOT = {{ request.script_root|tojson }};
     </script>
     <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#submitButton").click(function() {
+                var message = $("#myForm input[name='message']").val();
 
+                $.ajax({
+                    type: "POST",
+                    url: "/submit",
+                    data: { 'message': message },
+                    success: function(response) {
+                        // Handle the success response here (e.g., display a confirmation message)
+                        $("#result").text('Message submitted successfully');
+                    },
+                    error: function(error) {
+                        // Handle any errors here
+                        console.error(error);
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
